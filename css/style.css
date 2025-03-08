@@ -367,7 +367,7 @@ main {
   transform: translateY(-50%); /* Смещаем вверх на половину высоты */
   width: 20%;
   background-color: gray; /* Временный фон */
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
   color: white;
@@ -430,14 +430,14 @@ main {
   }
 }
 @media (max-width: 768px) {
-  .banner{
-    display: none;
-  }
   .logo__right {
     display: none;
   }
   .navbar ul {
     display: none;
+  }
+  .content__block {
+    width: 100%;
   }
   .burger-menu {
     display: flex;
@@ -448,4 +448,17 @@ main {
   .logo {
     order: 1;
   }
+  .content__img {
+    width: 60%;
+  }
+  .content__img-width {
+    width: 40%;
+  }
+  .description {
+    width: 100%;
+  }
+  .banner {
+    display: none;
+  }
 }
+
