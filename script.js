@@ -21,4 +21,4 @@ const showBannerFromTime = () => {
 };
 
 // setTimeout(showBannerFromTime, 5000);
-showBannerFromTime();
+// showBannerFromTime();
