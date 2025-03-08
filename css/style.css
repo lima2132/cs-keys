@@ -430,6 +430,9 @@ main {
   }
 }
 @media (max-width: 768px) {
+  .banner{
+    display: none;
+  }
   .logo__right {
     display: none;
   }
